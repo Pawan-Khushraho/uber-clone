@@ -6,8 +6,9 @@
     "rootDir": "./",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "baseUrl": "./", // Base directory for module resolutio
   },
-  "include": ["./*.ts"],
+  "include": ["**/*.ts"], // Include all TypeScript files recursively
   "exclude": ["node_modules", "dist"]
 }
